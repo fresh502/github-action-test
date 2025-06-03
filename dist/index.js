@@ -1,2 +1,6 @@
 "use strict";
-console.log("Hello World");
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.sum = sum;
+function sum(a, b) {
+    return a + b;
+}
